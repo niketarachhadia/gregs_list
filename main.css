@@ -1,0 +1,104 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 80px;
+  font-family: "Roboto", sans-serif;
+ }
+header{
+  position: fixed;
+  background-color: gray;
+  top: 0;
+  right:0;
+  left:0;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+  
+}
+.logo{
+  display: inline-block;
+ font-size:0;
+  }
+.logo h1{
+  font-weight: 500;
+  font-size:18px;
+  margin:0;
+  padding: 0;
+ }
+nav{
+  position: absolute;
+  right:10px;
+  top: 10px;
+  }
+.nav-link{
+  font-size: 18px;
+  font-weight: 500;
+   padding: 0 6px;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+.search{
+  margin-bottom: 30px;
+}
+.search input{
+  width: 400px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height:30px;
+  height: 30px;
+  background-color: white;
+  border: 1 px solid gray;
+  border-radius: 3px;
+  padding: 0 5px 0 8px;
+}
+.search button{
+  height: 30px;
+  font-size: 17px;
+  background-color: white;
+  border-radius: 3px;
+  border: 1 px solid gray;
+}
+.pages{
+  display: inline-block;
+  margin-bottom: 30px;
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+.pages-button{
+  display: inline-block;
+   font-size: 16px;
+  border-radius: 3px;
+  padding: 8px 15px;
+}
+.pages-display{
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  padding: 8px 25px;
+  font-size: 16px;
+}
+.listings{
+  padding:0;
+ }
+.listing{
+  list-style: none;
+  margin-bottom: 15px;
+}
+.listing-date, .listing-location{
+  color: gray;
+}
+.fa-star {
+  color:gray;
+  padding-right: 8px;
+}
+.listing-title{
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
